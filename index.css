@@ -12,6 +12,7 @@ body {
       height: 50px;
       margin: auto;
       position: fixed;
+     
   
   }
   
@@ -103,7 +104,7 @@ body {
       justify-content: flex-start;
       align-items: flex-end;
       width: fit-content;
-      transform: translate(1310px, -680px);
+      transform: translate(1310px, -680px); 
       position: fixed;
       float: right;
      
@@ -159,7 +160,7 @@ background-color: rgba(13, 13, 13, 98%);
  #work h2 { 
     font-family: 'SF Compact';
     font-weight: lighter;
-    font-size: 64px;
+    font-size: 40px;
     color: white;
     margin: 20px;
     margin-top: 0px;
@@ -312,13 +313,73 @@ background-color: rgba(13, 13, 13, 98%);
 
 #dailyUI { 
     background-color: white;
-    margin-top: 0px;
+    
 }
 
 #dailyUI h4 { 
     font-family: 'SF Compact';
-    font-size: 64px;
+    font-size: 40px;
     font-weight: lighter;
+    margin: 20px;
+    width: 100%;
+}
+
+#about { 
+    display: flex;
+   flex-direction: row;
+    margin: 60px;
+    margin-left: 2px;
+}
+
+#about img { 
+   
+}
+
+#about p {
+    margin: 20px;
+}
+
+#about button { 
+    background-color: white;
+    color: black;
+    margin: 20px;
+    margin-top: 80px;
+    border: 2px solid #0D0D0D;
+    padding: 12px 24px;
+    border-radius: 5.8%;
+}
+
+#about img { 
+    margin-left: 50px;
+}
+
+.aboutMe { 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 20px;
+    padding-top: 40px;
+
+   
+}
+
+.top { 
+    font-family: 'SF Compact';
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 125%;
+    width: 60%;
+   
+
+}
+
+.bottom { 
+    font-family: 'SF Compact';
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 125%;
+    width: 60%;
 }
 
 #uiImg {
@@ -331,7 +392,7 @@ background-color: rgba(13, 13, 13, 98%);
 }
 
 #dailyUI img { 
-    height: 400px;
+    
     
 }
 
